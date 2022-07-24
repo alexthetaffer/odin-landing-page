@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    max-width: 960px;
+    max-width: 1060px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 16px;
@@ -27,13 +27,13 @@ header .wrapper {
 a {
     text-decoration: none;
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 ul {
     display: flex;
     gap: 18px;
     list-style: none;
-    padding: ;
 }
 
 
@@ -47,7 +47,44 @@ ul {
 }
 
 /* Showcase */
-.showcase {
+.showcase .wrapper{
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 16px;
+    
+}
+.showcase {
     background-color: #1f2937;
+    padding-top: 30px;
+
+}
+
+#showcase-image {
+    max-width: 400px;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hello {
+    max-width: 400px;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+button {
+    padding: 8px 30px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #3992f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 900;
 }
