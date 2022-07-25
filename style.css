@@ -74,7 +74,6 @@ ul {
 .showcase {
     background-color: #1f2937;
     padding-top: 30px;
-
 }
 
 #showcase-image {
@@ -110,7 +109,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 42px 16px;
+    gap: 42px 0px;
     padding-bottom: 100px;
 }
 
@@ -121,7 +120,7 @@ h1 {
 
 .card {
     text-align: center;
-    max-width: 240px;
+    max-width: 220px;
 }
 
 /* Quote section */
