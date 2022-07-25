@@ -149,9 +149,18 @@ h1 {
     padding: 100px 32px;
 }
 
+.call-to-action h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.call-to-action p {
+    margin: 0px;
+}
+
 .call-to-action .wrapper {
     background-color: #3882f6;
-    padding: 28px 108px;
+    padding: 42px 108px;
     border-radius: 8px;
     color: #f9faf8;
 }
@@ -160,5 +169,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* footer */
+footer {
+    background-color: #1f2937;
+    padding: 40px 16px;
+    text-align: center;
+    color: #f9faf8;
 }
 
