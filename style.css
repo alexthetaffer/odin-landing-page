@@ -1,10 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
+/* Generic */
 body {
     margin: 0px;
     padding: 0px;
     font-family: 'roboto', sans-serif;
+}
+
+button {
+    padding: 6px 30px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #3992f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.button-outline {
+    background-color: #3882f6;
+    border: #f9faf8 2px solid;
 }
 
 .wrapper {
@@ -79,16 +95,6 @@ h1 {
     margin: 0;
 }
 
-button {
-    padding: 8px 30px;
-    border-radius: 8px;
-    border-style: none;
-    background-color: #3992f6;
-    color: #f9faf8;
-    font-size: 18px;
-    font-weight: 900;
-}
-
 /* Information */
 
 .info h2 {
@@ -136,3 +142,23 @@ button {
     text-align: right;
     font-weight: bold;
 }
+
+/* Call-to-action */
+
+.call-to-action {
+    padding: 100px 32px;
+}
+
+.call-to-action .wrapper {
+    background-color: #3882f6;
+    padding: 28px 108px;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+
+.call-to-action .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
